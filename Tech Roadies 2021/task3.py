@@ -20,7 +20,7 @@ urlretrieve(src, "ieee-pic.jpg")
 
 driver.get("https://web.whatsapp.com/")
 input("Scan QR code")
-person = driver.find_element_by_css_selector('span[title="Anam"]')  # Name of the contact. In this implementation, the contact has to be visible. You can also search for it in the search bar, and hit the enter key via code
+person = driver.find_element_by_css_selector('span[title="Nimitha"]')  # Name of the contact. In this implementation, the contact has to be visible. You can also search for it in the search bar, and hit the enter key via code
 person.click()
 
 textbox = driver.find_element_by_xpath('/html/body/div[1]/div/div/div[4]/div/footer/div[1]/div[2]/div/div[2]')
